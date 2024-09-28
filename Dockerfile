@@ -1,5 +1,5 @@
 # Use the latest Python image
-FROM python:3-slim
+FROM python:3.13.0rc2-slim
 
 # Install dependencies
 RUN apt-get update && \
